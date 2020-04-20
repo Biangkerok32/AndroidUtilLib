@@ -20,5 +20,5 @@ jobs:
     - name: 'Upload AAR to Artifacts'
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: biometric.aar
-        path: biometriclibrary/build/outputs/aar/biometriclibrary-release.aar
+        name: util.aar
+        path: util/build/outputs/aar/util-release.aar
